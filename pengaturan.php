@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <style>
-        /* --- CSS INTERNAL --- */
         * {
             margin: 0;
             padding: 0;
@@ -16,8 +15,8 @@
         }
 
         :root {
-            --primary-color: #02c39a; /* Hijau Identitas TasikKreatif */
-            --sidebar-color: #05668d; /* Biru Gelap Sidebar */
+            --primary-color: #02c39a; 
+            --sidebar-color: #05668d;
             --bg-light: #f4f7f6;
             --white: #ffffff;
             --text-dark: #333;
@@ -30,7 +29,7 @@
             min-height: 100vh;
         }
 
-        /* Sidebar Style (Sama dengan Dashboard) */
+        
         .sidebar {
             width: 260px;
             background-color: var(--sidebar-color);
@@ -72,7 +71,7 @@
             border-left: 4px solid var(--primary-color);
         }
 
-        /* Main Content */
+        
         .main-content {
             margin-left: 260px;
             flex-grow: 1;
@@ -88,7 +87,7 @@
             font-size: 1.8rem;
         }
 
-        /* Settings Card */
+    
         .settings-card {
             background: var(--white);
             padding: 30px;
@@ -158,7 +157,6 @@
             transform: translateY(-2px);
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             .sidebar { width: 70px; }
             .sidebar-header, .menu-text { display: none; }
