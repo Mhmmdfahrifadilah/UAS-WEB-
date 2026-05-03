@@ -1,5 +1,5 @@
 <?php
-include 'koneksi.php'; // Atau gunakan mysqli_connect langsung
+include 'koneksi.php'; 
 $query_umkm = mysqli_query($conn, "SELECT * FROM tabel_pemilik ORDER BY id_user DESC LIMIT 1");
 $data_umkm = mysqli_fetch_assoc($query_umkm);
 ?>
@@ -241,7 +241,7 @@ $data_umkm = mysqli_fetch_assoc($query_umkm);
         <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-top: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
         <h3 style="margin: 0; color: #05668d; font-size: 1.2rem;">Pesanan Terakhir</h3>
-        <!-- Perhatikan bagian href="..." di bawah ini, sesuaikan dengan nama file input kamu -->
+        
     <a href="tambahproduk.php" style="text-decoration: none;">
        <button type="button" style="background: #02c39a; color: white; border: none; padding: 10px 15px; border-radius: 8px; font-weight: bold; cursor: pointer;">
         + Tambah Produk
