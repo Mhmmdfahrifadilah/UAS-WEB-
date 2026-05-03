@@ -6,7 +6,6 @@ if (!$conn) {
     die("Koneksi database gagal: " . mysqli_connect_error());
 }
 
-// Cek apakah tombol dengan name='daftar' diklik
 if (isset($_POST['tombol_daftar'])) {
     
     // 2. TANGKAP DATA DARI FORM
@@ -15,8 +14,6 @@ if (isset($_POST['tombol_daftar'])) {
     $jenis_produk    = mysqli_real_escape_string($conn, $_POST['jenis_produk']);
     $alamat_workshop = mysqli_real_escape_string($conn, $_POST['alamat_workshop']);
 
-    // 3. QUERY INSERT
-    // Kita tidak memasukkan 'id_user' karena dia AUTO_INCREMENT di database
     $sql = "INSERT INTO tabel_pemilik (nama_pemilik, nama_usaha, jenis_produk, alamat_workshop) 
             VALUES ('$nama_pemilik', '$nama_usaha', '$jenis_produk', '$alamat_workshop')";
 
