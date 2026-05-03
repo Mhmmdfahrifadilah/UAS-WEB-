@@ -30,7 +30,7 @@
             padding: 0 20px;
         }
 
-        /* Header */
+
         header {
             background: white;
             padding: 15px 0;
@@ -52,7 +52,7 @@
 
         .logo span { color: var(--primary); }
 
-        /* Section Hero Etalase */
+    
         .etalase-hero {
             background: linear-gradient(rgba(5, 102, 141, 0.8), rgba(5, 102, 141, 0.8)), 
                         url('https://images.unsplash.com/photo-1523474253046-5cd2c48b63cd?auto=format&fit=crop&w=1350&q=80');
@@ -63,7 +63,7 @@
             padding: 60px 20px;
         }
 
-        /* Grid Sentra */
+    
         .sentra-container {
             padding: 50px 0;
         }
