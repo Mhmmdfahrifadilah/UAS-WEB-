@@ -311,7 +311,7 @@
         </div>
 
     <?php 
-    } // Akhir perulangan while
+    } 
     ?>
 </div>
             </div>
